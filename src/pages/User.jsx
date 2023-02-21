@@ -37,7 +37,7 @@ export default function User() {
         <input
           className="form-control inputBuscar"
           value={busqueda}
-          placeholder="Búsqueda por Nombre o Empresa"
+          placeholder="Búsqueda por Nombre o Sucursal"
           onChange={handleSearch}
         />
         <button className="btn btn-success">Buscar</button>
